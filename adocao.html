@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETSHOP </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 10px;
+        }
+
+        .borda {
+            border: 2px solid white;
+
+        }
+
+        .texto {
+            text-align: center;
+        }
+
+        .formulario {
+
+            margin: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar bg-body-tertiary d-flex justify-content-end">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./IMG/logo1.png" alt="Bootstrap" width="280" height="104">
+                </a>
+
+                <div class="fonte">
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./index.html">Home</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./servicos.html">Serviços</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./produtos.html">Produtos</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./adocao.html">Adoção</a>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <form class="d-flex " role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquise</button>
+            </form>
+        </div>
+        <br>
+
+    </header>
+
+    <main>
+
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./IMG/dog.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.petz.com.br/fotos/Home_Desk_1900x390_LancamentoSnackNuggets_CDSG_CRIACAO_2025_04.gif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./IMG/produ.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="formulario">
+            <form>
+                <fieldset>
+                    <legend class="texto">Formulario do Adoção de Pet</legend>
+                    <div class="mb-3 ">
+                        <label for="nome" class="form-label">Nome Completo:</label>
+                        <input type="text" id="nome" class="form-control bg-body-secondary">
+                    </div>
+
+                    <div class="mb-3 ">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" id="email" class="form-control bg-body-secondary"
+                            placeholder="exemplo@mail.com">
+                    </div>
+
+                    <div class="mb-3 ">
+                        <label for="tel" class="form-label">Telefone:</label>
+                        <input type="tel" id="email" class="form-control bg-body-secondary">
+                    </div>
+
+                    <div class="mb-3 ">
+                        <label for="end" class="form-label">Endereço completo:</label>
+                        <input type="text" id="end" class="form-control bg-body-secondary">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="tipo" class="form-label">Tipo de residência:</label>
+                        <select id="tipo" class="form-select bg-body-secondary">
+                            <option>Selecione</option>
+                            <option>Casa</option>
+                            <option>Apartamento</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="end" class="form-label">Voce já possui pets?:</label><br>
+                        <input type="radio" id="end" class="bg-body-secondary">
+                        <label for="end" class="form-label">sim</label>
+                        <input type="radio" id="end" class="bg-body-secondary">
+                        <label for="end" class="form-label">não</label>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="tipo" class="form-label">Preferencia de animal para adoção:</label>
+                        <select id="tipo" class="form-select bg-body-secondary">
+                            <option>Selecione</option>
+                            <option>Cães</option>
+                            <option>Gatos</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3 ">
+                        <label for="comentario" class="form-label">Obcervações:</label>
+                        <textarea name="comentario" id="comentario" rows="5" maxlength="20" cols="50" class="form-control bg-body-secondary"></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="FieldsetCheck">
+                            <label class="form-check-label" for="FieldsetCheck">
+                                Declaro que concordo com os termos de responsabilidadr da adoção.
+                            </label>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Solicitação</button>
+                </fieldset>
+            </form>
+        </div>
+
+    </main>
+
+
+
+
+
+    <footer>
+
+        <hr class="my-4">
+
+        <footer class="bg-dark text-light">
+            <div class="container d-flex py-1 justify-content-center">
+                <div class="row">
+                    <div class="col">
+                        <h1>Pet Shop</h1>
+                        <p>
+                            Harmony Premium Business <br>
+                            Av. Humberto Monte, 2929 Pici, <br>
+                            11º andar, Torre Norte - Sala 1101 à 1107 <br>
+                            Fortaleza - CE
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <ul class="nav">
+                            <a href="http://">
+                                <li class="nav-link"><i class="fab fa-facebook fa-3x text-light"></i></li>
+                            </a>
+                            <a href="https://www.instagram.com/rmhtecnologia/" target="_blank">
+                                <li class="nav-link"><i class="fab fa-instagram fa-3x text-light"></i></li>
+                            </a>
+                            <a href="http://">
+                                <li class="nav-link"><i class="fab fa-twitter fa-3x text-light"></i></li>
+                            </a>
+                            <a href="https://wa.me/5585992865830" target="_blank">
+                                <li class="nav-link"><i class="fab fa-whatsapp fa-3x text-light"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="background-color: #333; padding: 20px;">
+                &copy 2025 Copyright: <a class="link-offset-2 link-underline link-underline-opacity-0 text-light"
+                    href="#">Hello World</a>
+            </div>
+        </footer>
+
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PETSHOP </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            margin: 10px;
+        }
+
+        .borda {
+            border: 2px solid white;
+
+        }
+
+        .texto {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar bg-body-tertiary d-flex justify-content-end">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./IMG/logo1.png" alt="Bootstrap" width="280" height="104">
+                </a>
+
+                <div class="fonte">
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./index.html">Home</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./servicos.html">Serviços</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./produtos.html">Produtos</a>
+                    <a class="link-offset-2 link-underline link-underline-opacity-0 p-3 text-black-50"
+                        href="./adocao.html">Adoção</a>
+
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid">
+            <form class="d-flex " role="search">
+                <input class="form-control me-2" type="search" placeholder="Pesquise" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Pesquise</button>
+            </form>
+        </div>
+        <br>
+
+    </header>
+
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./IMG/dog.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="https://images.petz.com.br/fotos/Home_Desk_1900x390_LancamentoSnackNuggets_CDSG_CRIACAO_2025_04.gif"
+                    class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./IMG/produ.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <hr class="my-4">
+
+    <div class="container borda ">
+        <br>
+        <div class="row borda">
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEB0K0FQG37g5_h5JlCbXIz2R6p1J3BZKWIQ&s" class="card-img-top"
+                        alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Peitoral Ferplast</h5>
+                        <p class="card-text">Peitoral Ferplast Agila Fluo Amarelo e preto para câes</p>
+                        <a href="./produtos.html" class="btn btn-primary">49,90 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1666985549004_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Fralda Descartavel</h5>
+                        <p class="card-text">Fralda Descartavel! Super seção para Câes fêmeas</p>
+                        <a href="./produtos.html" class="btn btn-primary">31,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1704734238331_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Bebedouro Fonte</h5>
+                        <p class="card-text">Bebedouro fonte Spike Braco para Cães e gatos</p>
+                        <a href="./adocao.html" class="btn btn-primary">75,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1712605684536_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Ração</h5>
+                        <p class="card-text">Ração Farmina Selection Cães e gatos</p>
+                        <a href="./adocao.html" class="btn btn-primary">375,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container borda ">
+        <br>
+        <div class="row borda">
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/10001305000365_1743016506099_mini.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Ração Seca</h5>
+                        <p class="card-text">Ração Seca Royal Cani Maxx Puppy para câes</p>
+                        <a href="./produtos.html" class="btn btn-primary">149,90 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1502917134500_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Arranhador</h5>
+                        <p class="card-text">Arranhado tipo rampa Furação pet para gatos</p>
+                        <a href="./produtos.html" class="btn btn-primary">51,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/20007230000005_1730895985030_mini.jpg" height="286px"
+                        width="286px" class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Educador</h5>
+                        <p class="card-text">Educador Feliway Ceva Refil Difusor Eletrico</p>
+                        <a href="./adocao.html" class="btn btn-primary">225,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1712329794138_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Brinquedo</h5>
+                        <p class="card-text">Brinquedo Capivada de pelicia Pet para Câes</p>
+                        <a href="./adocao.html" class="btn btn-primary">75,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container borda ">
+        <br>
+        <div class="row borda">
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1658412703282_mini.jpg" class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Ração Golden</h5>
+                        <p class="card-text">Ração Seca Golden mega Cani Maxx Puppy para câes</p>
+                        <a href="./produtos.html" class="btn btn-primary">169,90 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1704308186452_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Tapete Hig</h5>
+                        <p class="card-text">Tapete Higienico Pet carvão ativado para cães</p>
+                        <a href="./produtos.html" class="btn btn-primary">51,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1597241611533_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Brinquedo</h5>
+                        <p class="card-text">Brinquedo de Atividade paware recompensa</p>
+                        <a href="./adocao.html" class="btn btn-primary">25,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col borda">
+                <div class="card bg-body-secondary" style="width: 18rem;">
+                    <img src="https://images.petz.com.br/fotos/1572633695555_mini.jpg" height="286px" width="286px"
+                        class="card-img-top" alt="...">
+                    <div class="card-body texto">
+                        <h5 class="card-title">Ração</h5>
+                        <p class="card-text">Alimento para peixe Alcon Guppy 20gr</p>
+                        <a href="./adocao.html" class="btn btn-primary">75,19 - Comprar</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <hr class="my-4">
+
+    <footer>
+
+
+
+        <footer class="bg-dark text-light">
+            <div class="container d-flex py-1 justify-content-center">
+                <div class="row">
+                    <div class="col">
+                        <h1>Pet Shop</h1>
+                        <p>
+                            Harmony Premium Business <br>
+                            Av. Humberto Monte, 2929 Pici, <br>
+                            11º andar, Torre Norte - Sala 1101 à 1107 <br>
+                            Fortaleza - CE
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <ul class="nav">
+                            <a href="http://">
+                                <li class="nav-link"><i class="fab fa-facebook fa-3x text-light"></i></li>
+                            </a>
+                            <a href="https://www.instagram.com/rmhtecnologia/" target="_blank">
+                                <li class="nav-link"><i class="fab fa-instagram fa-3x text-light"></i></li>
+                            </a>
+                            <a href="http://">
+                                <li class="nav-link"><i class="fab fa-twitter fa-3x text-light"></i></li>
+                            </a>
+                            <a href="https://wa.me/5585992865830" target="_blank">
+                                <li class="nav-link"><i class="fab fa-whatsapp fa-3x text-light"></i></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center" style="background-color: #333; padding: 20px;">
+                &copy 2025 Copyright: <a class="link-offset-2 link-underline link-underline-opacity-0 text-light"
+                    href="#">Hello World</a>
+            </div>
+        </footer>
+
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+
+</html>
